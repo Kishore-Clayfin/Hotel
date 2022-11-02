@@ -1,0 +1,111 @@
+<head>
+
+<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+	
+	
+	<link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}" />
+
+<script th:src="@{/webjars/jquery/3.1.1/jquery.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">HOTEL</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">HOTEL</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="findAllHotel">Add Hotel</a></li>
+            <li><a class="dropdown-item" href="#">Retrieve Hotel</a></li>
+            <li><a class="dropdown-item" href="#">Update Hotel</a></li>
+            <li><a class="dropdown-item" href="#">Delete Hotel</a></li>
+          </ul>
+          
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">DEPARTMENT</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Add Department</a></li>
+            <li><a class="dropdown-item" href="#">Retrieve Department </a></li>
+            <li><a class="dropdown-item" href="#">Update Department ></li>
+            <li><a class="dropdown-item" href="#">Delete Department </a></li>
+          </ul>
+          
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">EMPLOYEE</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Add Employee</a></li>
+            <li><a class="dropdown-item" href="#">Retrieve Employee</a></li>
+            <li><a class="dropdown-item" href="#">Update Employee</a></li>
+            <li><a class="dropdown-item" href="#">Delete Employee</a></li>
+          </ul>
+          
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ROOMS</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Add Rooms</a></li>
+            <li><a class="dropdown-item" href="#">Retrieve Rooms</a></li>
+            <li><a class="dropdown-item" href="#">Update Rooms</a></li>
+            <li><a class="dropdown-item" href="#">Delete Rooms</a></li>
+          </ul>
+          
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">FOOD CATEGORY</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Add FoodCategory</a></li>
+            <li><a class="dropdown-item" href="#">Retrieve FoodCategory</a></li>
+            <li><a class="dropdown-item" href="#">Update FoodCategory</a></li>
+            <li><a class="dropdown-item" href="#">Delete FoodCategory</a></li>
+          </ul>
+          
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ITEM CATEGORY</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Add ItemCategory</a></li>
+            <li><a class="dropdown-item" href="#">Retrieve ItemCategory</a></li>
+            <li><a class="dropdown-item" href="#">Update ItemCategory</a></li>
+            <li><a class="dropdown-item" href="#">Delete ItemCategory</a></li>
+          </ul>
+          
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ITEM TIMINGS</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Add ItemTimings</a></li>
+            <li><a class="dropdown-item" href="#">Retrieve ItemTimings</a></li>
+            <li><a class="dropdown-item" href="#">Update ItemTimings</a></li>
+            <li><a class="dropdown-item" href="#">Delete ItemTimings</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">BOOKING</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Add Booking</a></li>
+            <li><a class="dropdown-item" href="#">Retrieve Booking</a></li>
+            <li><a class="dropdown-item" href="#">Update Booking</a></li>
+            <li><a class="dropdown-item" href="#">Delete Booking</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid mt-3">
+  <h3>HOTEL MANAGEMENT SYSTEM</h3>
+</div>
+
+</body>
+
+</html>

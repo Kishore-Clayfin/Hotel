@@ -1,0 +1,120 @@
+2022-10-31 14:04:29,808 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringbootDataJpa1Application on LAPTOP-J00S0K3O with PID 10224 (started by ROOBINI in F:\KISHORE\JAVA PROGRAMS\WorkSpace\UpdatedHotel)
+2022-10-31 14:04:29,816 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2022-10-31 14:04:29,817 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-10-31 14:04:29,852 INFO o.s.b.l.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\ROOBINI\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/ROOBINI/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/ROOBINI/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/ROOBINI/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/ROOBINI/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/ROOBINI/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/ROOBINI/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-10-31 14:04:29,853 INFO o.s.b.l.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\ROOBINI\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.7.0.0\ojdbc8-21.7.0.0.jar referenced one or more files that do not exist: file:/C:/Users/ROOBINI/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.7.0.0/oraclepki.jar
+2022-10-31 14:04:29,854 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-31 14:04:29,854 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-31 14:04:30,371 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-31 14:04:30,430 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 53ms. Found 9 JPA repository interfaces.
+2022-10-31 14:04:30,673 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-31 14:04:30,871 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2022-10-31 14:04:30,878 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-31 14:04:30,879 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-31 14:04:30,879 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-10-31 14:04:31,087 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-31 14:04:31,088 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1234 ms
+2022-10-31 14:04:31,200 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-31 14:04:31,245 INFO o.h.Version [restartedMain] HHH000412: Hibernate Core {5.4.10.Final}
+2022-10-31 14:04:31,329 INFO o.h.a.c.r.j.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-10-31 14:04:31,397 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-10-31 14:04:31,696 INFO c.z.h.p.PoolBase [restartedMain] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2022-10-31 14:04:31,699 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-10-31 14:04:31,716 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-10-31 14:04:32,499 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-31 14:04:32,504 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-31 14:04:32,524 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-31 14:04:32,591 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-31 14:04:33,100 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5dd98906, org.springframework.security.web.context.SecurityContextPersistenceFilter@6558a6c, org.springframework.security.web.header.HeaderWriterFilter@12d95a0e, org.springframework.security.web.authentication.logout.LogoutFilter@56bfeb6c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6e5078ee, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6aef50c2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@49de5ceb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@26fcaa8e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@337cbb4c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@630dd211, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51073b13, org.springframework.security.web.session.SessionManagementFilter@57a1cbf1, org.springframework.security.web.access.ExceptionTranslationFilter@e0fc4ea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@746919cc]
+2022-10-31 14:04:33,169 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-31 14:04:33,591 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2022-10-31 14:04:33,606 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-31 14:04:33,608 INFO o.s.b.StartupInfoLogger [restartedMain] Started SpringbootDataJpa1Application in 4.141 seconds (JVM running for 5.154)
+2022-10-31 14:04:37,171 INFO o.a.j.l.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-31 14:04:37,171 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-31 14:04:37,176 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 5 ms
+2022-10-31 14:05:56,568 INFO o.s.s.c.ExecutorConfigurationSupport [Thread-8] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-31 14:05:56,570 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-8] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-31 14:05:56,574 INFO c.z.h.HikariDataSource [Thread-8] HikariPool-1 - Shutdown initiated...
+2022-10-31 14:05:56,578 INFO c.z.h.HikariDataSource [Thread-8] HikariPool-1 - Shutdown completed.
+2022-10-31 14:05:56,887 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringbootDataJpa1Application on LAPTOP-J00S0K3O with PID 10224 (started by ROOBINI in F:\KISHORE\JAVA PROGRAMS\WorkSpace\UpdatedHotel)
+2022-10-31 14:05:56,887 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2022-10-31 14:05:56,888 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-10-31 14:05:57,067 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-31 14:05:57,091 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 23ms. Found 9 JPA repository interfaces.
+2022-10-31 14:05:57,147 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-31 14:05:57,242 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2022-10-31 14:05:57,243 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-31 14:05:57,243 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-31 14:05:57,243 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-10-31 14:05:57,258 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-31 14:05:57,258 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 368 ms
+2022-10-31 14:05:57,294 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-31 14:05:57,298 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-10-31 14:05:57,314 INFO c.z.h.p.PoolBase [restartedMain] HikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2022-10-31 14:05:57,315 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-10-31 14:05:57,315 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-10-31 14:05:57,569 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-31 14:05:57,570 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-31 14:05:57,580 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-31 14:05:57,613 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-31 14:05:57,782 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@467f0eed, org.springframework.security.web.context.SecurityContextPersistenceFilter@732ccdb6, org.springframework.security.web.header.HeaderWriterFilter@747fe825, org.springframework.security.web.authentication.logout.LogoutFilter@1a38645e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@39b2451, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b835148, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@679c139e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2a5b373f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a3fd887, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@610a2b25, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1692aa0a, org.springframework.security.web.session.SessionManagementFilter@149dcdc9, org.springframework.security.web.access.ExceptionTranslationFilter@38c429d5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@246aa2ad]
+2022-10-31 14:05:57,810 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-31 14:05:58,071 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2022-10-31 14:05:58,075 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-31 14:05:58,076 INFO o.s.b.StartupInfoLogger [restartedMain] Started SpringbootDataJpa1Application in 1.223 seconds (JVM running for 89.622)
+2022-10-31 14:05:58,079 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-10-31 14:06:06,278 INFO o.a.j.l.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-31 14:06:06,278 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-31 14:06:06,281 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 3 ms
+2022-10-31 14:09:34,641 INFO o.s.s.c.ExecutorConfigurationSupport [Thread-13] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-31 14:09:34,642 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-13] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-31 14:09:34,644 INFO c.z.h.HikariDataSource [Thread-13] HikariPool-2 - Shutdown initiated...
+2022-10-31 14:09:34,651 INFO c.z.h.HikariDataSource [Thread-13] HikariPool-2 - Shutdown completed.
+2022-10-31 14:11:58,131 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringbootDataJpa1Application on LAPTOP-J00S0K3O with PID 10224 (started by ROOBINI in F:\KISHORE\JAVA PROGRAMS\WorkSpace\UpdatedHotel)
+2022-10-31 14:11:58,132 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2022-10-31 14:11:58,132 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-10-31 14:11:58,298 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-31 14:11:58,301 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+2022-10-31 14:11:58,349 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-31 14:11:58,440 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2022-10-31 14:11:58,441 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-31 14:11:58,441 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-31 14:11:58,441 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-10-31 14:11:58,454 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-31 14:11:58,454 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 321 ms
+2022-10-31 14:11:58,483 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-31 14:11:58,486 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-10-31 14:11:58,499 INFO c.z.h.p.PoolBase [restartedMain] HikariPool-3 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2022-10-31 14:11:58,500 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-10-31 14:11:58,500 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-10-31 14:11:58,709 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-31 14:11:58,709 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-31 14:11:58,717 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-31 14:11:58,745 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-31 14:11:58,755 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookingcontroller': Unsatisfied dependency expressed through field 'bookingService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookingServiceImpl': Unsatisfied dependency expressed through field 'bookingDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cf.repository.IBookingDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-10-31 14:11:58,755 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-31 14:11:58,755 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Shutdown initiated...
+2022-10-31 14:11:58,760 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Shutdown completed.
+2022-10-31 14:11:58,761 INFO o.a.j.l.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2022-10-31 14:11:58,765 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-31 14:11:58,838 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field bookingDao in com.cf.service.BookingServiceImpl required a bean of type 'com.cf.repository.IBookingDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.cf.repository.IBookingDao' in your configuration.
+
