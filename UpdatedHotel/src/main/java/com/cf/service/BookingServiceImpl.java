@@ -36,14 +36,14 @@ public class BookingServiceImpl
 	 * @throws IOException 
 	 * @throws WriterException 
 	 ********************************************************************************************************/
-	public Booking bookingHotel(Booking booking) throws WriterException, IOException
+	public Booking bookingHotel(Booking booking) throws WriterException, IOException //hrows WriterException, IOException
 	{
 		Booking booking1=new Booking();
 		booking1.setAmount(booking.getAmount());
 		booking1.setBookingId(booking.getBookingId());
-		booking1.setHotelName(booking.getHotelName());
+		booking1.setHotel(booking.getHotel());
 		booking1.setModeOfPayment(booking.getModeOfPayment());
-		booking1.setRoomNumber(booking.getRoomNumber());
+		booking1.setRooms(booking.getRooms());
 		booking1.setUser(booking.getUser());
 		booking1.setBookingDate(LocalDate.now());
 		booking1.setFromDate(booking.getFromDate());
@@ -80,11 +80,11 @@ public class BookingServiceImpl
 			
 			/*******   EMAIL SENDER   *******/
 			
-			String s="Bokked room at "+b.getHotelName()+" and your room number is "+b.getRoomNumber()+ "\n PLEASE SHOW THE QRCODE TO RECIOPTIONLIST";
+			String s="Bokked room at "+b.getHotel().getName()+" and your room number is "+b.getRooms().getRoomNumber()+ "\n PLEASE SHOW THE QRCODE TO RECIOPTIONLIST";
 //			
 //			email.sendSimpleMessage(b.getEmail(), "Booking",s);
 //
-			String location="F:\\KISHORE\\JAVA PROGRAMS\\WorkSpace\\UpdatedHotel\\src\\main\\resources\\qrcodes\\"+b.getBookingId()+".png";
+			String location="C:\\Users\\ROOBINI\\git\\UpdatedProject\\UpdatedHotel\\src\\main\\resources\\qrcodes\\"+b.getBookingId()+".png";
 			FileSystemResource Attachement = new FileSystemResource(location);
 
 			email.sendMail(b.getEmail(), "Booking", s,Attachement);
@@ -102,9 +102,10 @@ public class BookingServiceImpl
 //			System.out.println("Wrong");
 		}
 		
-		
-//		bookingDao.save(booking1);
+//		
+//		Booking b=bookingDao.save(booking);
 //		log.info("Department Added");
+//		return b;
 	}
 	
 	/*******************************************************************************************************

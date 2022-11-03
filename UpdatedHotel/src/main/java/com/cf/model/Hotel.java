@@ -3,6 +3,7 @@ package com.cf.model;
 import java.util.List;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -54,7 +55,7 @@ public class Hotel extends Auditable<String>
 	private String state;
 	private Integer pincode;
 	
-	@OneToMany
+	@OneToMany(fetch = FetchType.EAGER)
 	private List<Rooms> rooms;
 	@OneToMany
 	private List<Employee> employee;

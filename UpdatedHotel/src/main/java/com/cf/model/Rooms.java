@@ -33,6 +33,6 @@ public class Rooms extends Auditable<String>
 	private String roomType;
 	private Integer numberOfBeds;
 	private Double roomCharges;
-	
+	private String status;
 	
 }

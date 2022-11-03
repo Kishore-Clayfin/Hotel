@@ -9,6 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -44,13 +45,15 @@ public class Booking
 	
 	@DecimalMin(value = "1.0", message = "Please Enter a valid  Amount")
 	private Double amount;
-	private String hotelName;
 	
 	private String email;
 	
-	@NotNull(message = "value should be not null")
-	@Min(value=1, message=" value should be greater than 0")
-	private Integer roomNumber;
+	@OneToOne
+	private Rooms rooms;
+	
+	
+	@OneToOne
+	private Hotel hotel;
 	
 	@ManyToOne
 //	@JoinColumn(name = "userId")
